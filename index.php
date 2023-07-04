@@ -37,6 +37,26 @@
 
         </div>
     </section>
+
+    <section class="experiences">
+        <div class="titleSection">
+            <h2><span>02.</span> Mes expériences</h2>
+            <div class="lineParag"></div>
+        </div>
+
+        <div class="flex">
+            <div class="listExperiences">
+                <button>EDF ENR</button>
+                <button>C.R.V.M</button>
+                <button>Ayctor</button>
+                <button>Defta</button>
+            </div>
+
+            <div class="sectionContent">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni natus, facilis sunt autem mollitia! Illo suscipit quis quam tempore quia! Dolorem doloremque eos eveniet quia sunt, qui repellat molestiae.</p>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php require 'partials/footer.php'; ?>

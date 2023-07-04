@@ -131,6 +131,7 @@ nav a {
 .about {
     display: flex;
     margin-left: 50%;
+    margin-bottom: 250px;
     width: 750px;
     flex-direction: column;
     justify-content: center;
@@ -182,5 +183,50 @@ nav a {
 .techno {
     display: flex;
     justify-content: space-around;
+    color: #64ffda;
+}
+
+.experiences {
+    display: flex;
+    margin-left: 60%;
+    width: 750px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiences span {
+    color: #64ffda;
+}
+
+.experiences h2 {
+    color: #ccd6f6;
+}
+
+.experiences p {
+    color: #a8b2d1;
+}
+
+.flex {
+    display: flex;
+}
+
+.listExperiences {
+    display: flex;
+    flex-direction: column;
+}
+
+.listExperiences button {
+    margin: 0 20px 0 10px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #a8b2d1;
+    border-left: 2px #233554 solid;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+.listExperiences button:hover {
+    background-color: #112240;
     color: #64ffda;
 }
