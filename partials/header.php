@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="flex">
             <div class="img">
                 <img src="" alt="">
             </div>
