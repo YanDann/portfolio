@@ -71,7 +71,17 @@ nav a {
     list-style: none;
     width: 30px;
     height: 30px;
-    background-color: #a8b2d1;
+}
+
+.leftLine img {
+    filter: invert(80%) sepia(24%) saturate(399%) hue-rotate(192deg) brightness(87%) contrast(86%);
+    transition: 500ms;
+    transform: translateY();
+}
+
+.leftLine img:hover {
+    filter: invert(88%) sepia(5%) saturate(4364%) hue-rotate(96deg) brightness(112%) contrast(109%);
+    transform: translateY(-15%);
 }
 
 .rightLine {

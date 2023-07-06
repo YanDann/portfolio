@@ -1,8 +1,8 @@
 <div class="leftLine">
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a href="https://github.com/YanDann" target="_blank"><img src="img/githublogo.svg" alt=""></a></li>
+        <li><a href="https://www.instagram.com/julien_yyan/" target="_blank"><img src="img/instagramlogo.svg" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/jmichon/" target="_blank"><img src="img/linkedinlogo.svg" alt=""></a></li>
         <div class="decoLine"></div>
     </ul>
 </div>
