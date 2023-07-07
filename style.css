@@ -95,7 +95,14 @@ nav a {
     font-size: 18px;
     writing-mode: vertical-lr;
     text-decoration: none;
-    color: #a8b2d1;
+    filter: invert(80%) sepia(24%) saturate(399%) hue-rotate(192deg) brightness(87%) contrast(86%);
+    transition: 500ms;
+    transform: translateY();
+}
+
+.rightLine a:hover {
+    filter: invert(88%) sepia(5%) saturate(4364%) hue-rotate(96deg) brightness(112%) contrast(109%);
+    transform: translateY(-5%);
 }
 
 .decoLine {
@@ -245,6 +252,7 @@ nav a {
 }
 
 .experiencesH2 {
+    gap: 10px;
     width: 900px;
     color: #ccd6f6;
 }
@@ -253,7 +261,8 @@ nav a {
     color: #ccd6f6;
 }
 
-.listExperiences button {
+.xp-menu button {
+    display: flex;
     margin: 0 20px 0 10px;
     padding: 10px 15px;
     background-color: transparent;
@@ -267,14 +276,19 @@ nav a {
     font-size: 95%;
 }
 
-.listExperiences button:hover {
+.xp-menu button:hover {
     background-color: #112240;
     color: #64ffda;
 }
 
 .backgroundWork {
-    margin-top: 30px;
+    margin: 40px auto 70px auto;
     background-color: white;
     width: 100%;
     height: 450px;
+}
+
+.selected {
+    border-left: 2px #64ffda solid; 
+    color: #64ffda;
 }

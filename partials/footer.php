@@ -14,6 +14,8 @@
     </ul>
 </div>
 
+
+<script src="scripts/script-experiences.js"></script>
 </body>
 
 </html>

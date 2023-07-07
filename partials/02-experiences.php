@@ -1,15 +1,6 @@
 <?php
 require 'config/functions.php';
 
-$buttonName = $_POST['xp'] ?? 'EDF ENR';
-$experiences = [
-    'EDF ENR',
-    'Freelance',
-    'C.R.V.M',
-    'Ayctor',
-    'Defta',
-];
-
 ?>
 <div>
     <section class="experiences flex">
@@ -19,15 +10,18 @@ $experiences = [
         </div>
 
         <div class="flex">
-            <form action="" method="post" class="listExperiences flex">
-                <button name="xp" id="edfenr" value="EDF ENR" <?= isSelected('EDF ENR', $buttonName); ?>>EDF ENR</button>
-                <button name="xp" id="freelance" value="Freelance" <?= isSelected('Freelance', $buttonName); ?>>Freelance</button>
-                <button name="xp" id="crvm" value="C.R.V.M" <?= isSelected('C.R.V.M', $buttonName); ?>>C.R.V.M</button>
-                <button name="xp" id="ayctor" value="Ayctor" <?= isSelected('Ayctor', $buttonName); ?>>Ayctor</button>
-                <button name="xp" id="defta" value="Defta" <?= isSelected('Defta', $buttonName); ?>>Defta</button>
-            </form>
+            <div class="xp-menu">
+                <button id="b1" onclick="experiences('EDFENR')">EDF ENR</button>
+                <button id="b2" onclick="experiences('Freelance')">Freelance</button>
+                <button id="b3" onclick="experiences('C.R.V.M')">C.R.V.M</button>
+                <button id="b4" onclick="experiences('Ayctor')">Ayctor</button>
+                <button id="b5" onclick="experiences('Defta')">Defta</button>
+            </div>
+
             <div class="sectionContent">
-                <?= experienceToShow($experiences, $buttonName); ?>
+                <h2 class="experiencesH2 flex"> <p id="h2-xp-script" >Dessinateur de plan </p><span id="span-xp-script">@ </span><a href="https://www.edfenr.com/" target="_blank" id="entreprise-xp-script">EDF ENR</a></h2>
+                <h3 id="h3-xp-script">Septembre 2022 - Fevrier 2023</h3>
+                <p id="p-xp-script">Ceci est mon paragraphe expliquant ce que j'ai fais dans ce job</p>
             </div>
         </div>
     </section>
