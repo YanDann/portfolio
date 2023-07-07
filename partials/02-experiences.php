@@ -11,11 +11,11 @@ require 'config/functions.php';
 
         <div class="flex">
             <div class="xp-menu">
-                <button id="b1" onclick="experiences('EDFENR')">EDF ENR</button>
-                <button id="b2" onclick="experiences('Freelance')">Freelance</button>
-                <button id="b3" onclick="experiences('C.R.V.M')">C.R.V.M</button>
-                <button id="b4" onclick="experiences('Ayctor')">Ayctor</button>
-                <button id="b5" onclick="experiences('Defta')">Defta</button>
+                <button class="button-script" id="b1" onclick="experiences('EDFENR')">EDF ENR</button>
+                <button class="button-script" id="b2" onclick="experiences('Freelance')">Freelance</button>
+                <button class="button-script" id="b3" onclick="experiences('C.R.V.M')">C.R.V.M</button>
+                <button class="button-script" id="b4" onclick="experiences('Ayctor')">Ayctor</button>
+                <button class="button-script" id="b5" onclick="experiences('Defta')">Defta</button>
             </div>
 
             <div class="sectionContent">
