@@ -8,9 +8,7 @@ allXp = [
 ];
 
 function experiences(experience) {
-
     const buttons = document.querySelectorAll("div.xp-menu > button");
-    console.log(buttons);
 
     switch (experience) {
         case 'EDFENR':
@@ -56,7 +54,7 @@ function experiences(experience) {
             break;
     }
 
-    // Parcours du tableau + injection d'information
+    // Parcours du tableau + injection d'informations
     for (i = 0; allXp.length; i++) {
         if (allXp[i][0] === experience) {
             console.log(allXp[i]);

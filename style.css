@@ -287,8 +287,3 @@ nav a {
     width: 100%;
     height: 450px;
 }
-
-.selected {
-    border-left: 2px #64ffda solid; 
-    color: #64ffda;
-}
