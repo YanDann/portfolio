@@ -1,5 +1,5 @@
 <div>
-    <section class="experiences jobs flex" data-aos="fade-up" data-aos-duration="2000">
+    <section class="experiences flex" data-aos="fade-up" data-aos-duration="2000">
         <div class="titleSection flex">
             <h2><span>03.</span> Mes créations</h2>
             <div class="lineParag"></div>

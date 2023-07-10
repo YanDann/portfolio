@@ -233,7 +233,7 @@ nav a:hover {
 }
 
 .experiences {
-    margin: auto;
+    margin: 125px auto;
     width: 750px;
     flex-direction: column;
     justify-content: center;
@@ -300,7 +300,7 @@ nav a:hover {
 }
 
 .jobs {
-    margin: 50px auto;
+    margin: 100px auto;
     justify-content: center;
 }
 
@@ -404,4 +404,8 @@ nav a:hover {
 
 .mt {
     margin-top: 150px;
+}
+
+.contact {
+    margin-top: 200px;
 }
