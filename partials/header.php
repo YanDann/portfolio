@@ -19,7 +19,7 @@
             <ul>
                 <li><span>01.</span>A propos</li>
                 <li><span>02.</span>Experiences</li>
-                <li><span>03.</span>Contact</li>
+                <li><span>03.</span>Créations</li>
                 <a href="" target="_blank">CV</a>
             </ul>
         </nav>

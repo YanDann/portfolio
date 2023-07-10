@@ -289,8 +289,14 @@ nav a {
 }
 
 .jobs {
-    margin-top: 20px;
+    margin: 50px auto;
     justify-content: center;
+}
+
+.jobs-reverse {
+    margin: 50px auto;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .jobs .lineParag {
@@ -305,7 +311,7 @@ nav a {
     border-radius: 3px;
 }
 
-.little-resume {
+.little-resume-right {
     position: absolute;
     width: 450px;
     height: 100px;
@@ -315,7 +321,7 @@ nav a {
     border-radius: 3px;
 }
 
-.little-resume p {
+.little-resume-right p {
     font-weight: 300;
     text-align: end;
     margin: auto 20px;
@@ -340,6 +346,47 @@ nav a {
 }
 
 .mini-resume p {
+    margin-top: 10px;
+    color: #a8b2d1;
+}
+
+.resume-img-right{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    border-radius: 3px;
+}
+
+.little-resume-left {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    background-color: #233554;
+    top: 35%;
+    left: -55%;
+    border-radius: 3px;
+}
+
+.little-resume-left p {
+    font-weight: 300;
+    text-align: start;
+    margin: auto 20px;
+    color: white;
+}
+
+.mini-resume-reverse {
+    text-align: start;
+    height: 110px;
+    width: 310px;
+    margin-left: 20px;
+}
+
+.mini-resume-reverse span {
+    color: #64ffda;
+}
+
+.mini-resume-reverse p {
     margin-top: 10px;
     color: #a8b2d1;
 }
