@@ -25,5 +25,5 @@ require 'config/functions.php';
             </div>
         </div>
     </section>
-    <div class="backgroundWork" data-aos="fade-up" data-aos-duration="3000"></div>
+    <div id="jobs" class="backgroundWork" data-aos="fade-up" data-aos-duration="3000"></div>
 </div>

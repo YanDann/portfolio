@@ -23,7 +23,7 @@
              </ul>
          </div>
      </div>
-     <div class="photo">
+     <div id="xp" class="photo">
 
      </div>
  </section>
