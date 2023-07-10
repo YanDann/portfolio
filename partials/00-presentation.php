@@ -1,4 +1,4 @@
-<section class="me flex">
+<section class="me flex" data-aos="fade-up" data-aos-duration="2000">
     <p>Salut, moi c'est </p>
     <h1>Julien Michon.</h1>
     <h2>Designer devenu développeur;</h2>

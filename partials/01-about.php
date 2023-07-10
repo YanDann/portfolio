@@ -1,4 +1,4 @@
- <section class="about flex">
+ <section class="about flex" data-aos="fade-up" data-aos-duration="2000">
      <div class="titleSection flex">
          <h2><span>01.</span> A propos</h2>
          <div class="lineParag"></div>

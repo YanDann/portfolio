@@ -3,7 +3,7 @@ require 'config/functions.php';
 
 ?>
 <div>
-    <section class="experiences flex">
+    <section class="experiences flex" data-aos="fade-up" data-aos-duration="2000">
         <div class="titleSection flex">
             <h2><span>02.</span> Mes expériences</h2>
             <div class="lineParag"></div>
@@ -25,5 +25,5 @@ require 'config/functions.php';
             </div>
         </div>
     </section>
-    <div class="backgroundWork"></div>
+    <div class="backgroundWork" data-aos="fade-up" data-aos-duration="3000"></div>
 </div>
