@@ -8,6 +8,7 @@ allXp = [
 ];
 
 function experiences(experience) {
+    // Recupération d'un tableau de bouton compris dans la div class="xp-menu"
     const buttons = document.querySelectorAll("div.xp-menu > button");
 
     switch (experience) {
@@ -58,11 +59,11 @@ function experiences(experience) {
     for (i = 0; allXp.length; i++) {
         if (allXp[i][0] === experience) {
             console.log(allXp[i]);
-            document.getElementById("entreprise-xp-script").innerHTML = allXp[i][1];
-            document.getElementById("entreprise-xp-script").href = allXp[i][5];
-            document.getElementById("h2-xp-script").innerHTML = allXp[i][2];
-            document.getElementById("h3-xp-script").innerHTML = allXp[i][3];
-            document.getElementById("p-xp-script").innerHTML = allXp[i][4];
+            document.getElementById("entreprise-xp-script").innerHTML = allXp[i][1]; // nom entreprise
+            document.getElementById("entreprise-xp-script").href = allXp[i][5]; // lien vers site
+            document.getElementById("h2-xp-script").innerHTML = allXp[i][2]; // poste occupé
+            document.getElementById("h3-xp-script").innerHTML = allXp[i][3]; // dates
+            document.getElementById("p-xp-script").innerHTML = allXp[i][4]; // description
             return allXp[i];
         }
     }

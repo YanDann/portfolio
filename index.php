@@ -7,7 +7,7 @@
 
     <?php require 'partials/02-experiences.php'; ?>
 
-    <?php require 'partials/03-mistral.php'; ?>
+    <?php require 'partials/03-jobs.php'; ?>
 </main>
 
 <?php require 'partials/footer.php'; ?>
