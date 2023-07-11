@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+html {
+    scroll-behavior: smooth;
+}
+
+body  {
     margin: auto;
-    background-color: #0a192f;
+    background-color: #0a192f !important;
     font-family: 'Roboto Mono', monospace;
 }
 
