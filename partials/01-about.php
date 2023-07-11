@@ -19,11 +19,11 @@
                  <li>PHP</li>
                  <li>Java</li>
                  <li>Laravel</li>
-                 <li>React</li>
+                 <li id="xp">React</li>
              </ul>
          </div>
      </div>
-     <div id="xp" class="photo">
+     <div class="photo">
 
      </div>
  </section>

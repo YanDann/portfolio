@@ -9,7 +9,7 @@
 
     require 'partials/03-jobs.php'; 
     
-    require 'partials/04-contact.php';
+    require 'partials/04-design.php';
     ?>
     
 </main>

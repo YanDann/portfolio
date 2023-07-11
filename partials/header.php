@@ -21,7 +21,8 @@
                 <li><span>01.</span><a href="#about">A propos</a></li>
                 <li><span>02.</span><a href="#xp">Experiences</a></li>
                 <li><span>03.</span><a href="#jobs">Créations</a></li>
-                <li><span>04.</span><a href="#contact">Contact</a></li>
+                <li><span>04.</span><a href="#design">Designs</a></li>
+                <li><span>05.</span><a href="#contact">Contact</a></li>
                 <a class="cv" href="" target="_blank">CV</a>
             </ul>
         </nav>
