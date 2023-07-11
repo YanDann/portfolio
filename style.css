@@ -411,7 +411,7 @@ nav img{
 }
 
 .design {
-    margin: 200px auto 150px auto;
+    margin: 200px auto 200px auto;
     width: 1200px;
     display: flex;
     align-items: center;
@@ -430,4 +430,54 @@ nav img{
     width: 250px;
     height: 250px;
     background-color: white;
+}
+
+.contactContent {
+    margin-bottom: 200px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-size: 120%;
+    color: #a8b2d1;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form select {
+    padding: 10px;
+}
+
+form textarea {
+    padding: 10px;
+    font-family: 'Roboto Mono';
+    border-radius: 5px;
+}
+
+.submitButton {
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Roboto Mono';
+    color: #64ffda;
+    background-color: #233554;
+    border-color: #64ffda;
+    border-radius: 3px;
+}
+
+.invalid {
+    border: 3px solid rgb(209, 27, 27) !important;
+}
+
+.invalid-text {
+    color: rgb(209, 27, 27) !important;
 }
