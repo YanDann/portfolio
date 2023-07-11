@@ -17,5 +17,7 @@
             <div class="designSquare"></div>
             <div class="designSquare"></div>
         </div>
+
+        <div id="contact"></div>
     </section>
 </div>

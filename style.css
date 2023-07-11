@@ -8,7 +8,6 @@ body {
     margin: auto;
     background-color: #0a192f;
     font-family: 'Roboto Mono', monospace;
-    height: 15000px;
 }
 
 .flex {
@@ -65,9 +64,9 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.img {
+nav img{
     margin: 0 50px;
-    background-color: #64ffda;
+    object-fit: cover;
     width: 85px;
     height: 85px;
 }
@@ -416,6 +415,10 @@ nav a:hover {
 
 .design .titleSection {
     margin-bottom: 20px;
+}
+
+.design .lineParag {
+    width: 450px;
 }
 
 .designSquare {

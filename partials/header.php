@@ -15,7 +15,7 @@
     <header>
         <nav class="flex">
             <div class="img">
-                <img src="" alt="">
+                <a href="index.php"><img src="./img/logo.png" alt=""></a>
             </div>
             <ul>
                 <li><span>01.</span><a href="#about">A propos</a></li>

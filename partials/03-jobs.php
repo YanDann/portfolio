@@ -54,9 +54,10 @@
                 <span>Troisième projet</span>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>
-            <div class="mini-resume" id="design">
+            <div class="mini-resume">
                 <p>Suite résumé</p>
             </div>
         </div>
+        <div id="design"></div>
     </section>
 </div>
