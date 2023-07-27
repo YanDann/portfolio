@@ -72,7 +72,7 @@
         </div>
         <div class="resumes">
             <div class="mini-resume-reverse">
-                <span>Visite virtuelle</span>
+                <span><a href="ayctor.php">Visite virtuelle</a></span>
                 <p>J'ai eu l'occasion d'entièrement prototyper une visite virtuelle d'un bien immobilier encore non existant pour <span><a href="https://www.cogedim.com/" target="_blank">COGEDIM</a></span>.</p>
             </div>
             <div class="mini-resume-reverse">
