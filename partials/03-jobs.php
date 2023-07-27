@@ -54,7 +54,7 @@
         </div>
         <div class="resumes">
             <div class="mini-resume">
-                <span>Projet XV</span>
+                <span><a href="xv.php">Projet XV</a></span>
                 <p>C'est en se rapprochant de l'entreprise française <span><a href="https://www.wandercraft.eu/" target="_blank">Wandercraft</a></span> que ce projet à vue le jour.</p>
             </div>
             <div class="mini-resume">
