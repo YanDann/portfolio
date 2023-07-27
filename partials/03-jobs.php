@@ -33,7 +33,7 @@
         </div>
         <div class="resumes">
             <div class="mini-resume-reverse">
-                <span>HelloVR</span>
+                <span><a href="hello-vr.php">HelloVR</a></span>
                 <p>Campagne de sensibilisation en réalité virtuel pour CITEO
                     <br>
                     Rien ne se jette, tout se transforme

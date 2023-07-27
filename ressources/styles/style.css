@@ -565,3 +565,7 @@ form textarea {
     filter: invert(88%) sepia(5%) saturate(4364%) hue-rotate(96deg) brightness(112%) contrast(109%);
     transform: translateY(15%);
 }
+
+.revert {
+    transform: scaleX(-1)!important;
+}
