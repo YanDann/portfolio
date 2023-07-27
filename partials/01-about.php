@@ -5,8 +5,8 @@
      </div>
 
      <div class="sectionContent">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni natus, facilis sunt autem mollitia! Illo suscipit quis quam tempore quia! Dolorem doloremque eos eveniet quia sunt, qui repellat molestiae.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum magni natus, facilis sunt autem mollitia! Illo suscipit quis quam tempore quia! Dolorem doloremque eos eveniet quia sunt, qui repellat molestiae.</p>
+         <p>Une passion de l'informatique transmise par ma famille, j'ai eu la chance de grandir avec un pc dans les mains. Mes premières expériences dans le développement ont vue le jour grâce à mon amour pour le monde vidéo-ludique.</p>
+         <p>Depuis, je cultive une appétence pour la conceptualisation, la création & le developpement d'univers tant réel que virtuel. Ces elements m'ont conduit à me reconvertir de ma formation première, à savoir Designer UI / UX, dans le développement.</p>
          <p>Voici les technologies que j'utilise dans mes projets :</p>
          <div class="techno">
              <ul>
@@ -23,8 +23,8 @@
              </ul>
          </div>
      </div>
-     <div class="photo">
-
+     <div>
+        <img class="photo" src="__DIR__/../img/IMG_1589.jpg" alt="photo-julien">
      </div>
  </section>
  

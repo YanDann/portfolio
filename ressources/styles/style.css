@@ -159,7 +159,7 @@ nav img{
 
 .description {
     margin-top: 25px;
-    width: 450px;
+    width: 650px;
 }
 
 .about {
@@ -222,10 +222,12 @@ nav img{
 }
 
 .photo {
-    width: 300px;
     height: 300px;
-    background-color: white;
+    /* background-color: white; */
+    border-radius: 5;
     position: absolute;
+    object-fit: cover;
+    transform: scale(1.5);
     right: 0%;
     top: 15%;
 }
@@ -294,11 +296,13 @@ nav img{
 .xp-menu button:hover {
     background-color: #112240;
     color: #64ffda;
+    cursor: pointer;
 }
 
 .backgroundWork {
     margin: 40px auto 70px auto;
-    background: linear-gradient(to top, white 1%, #0000ff00);
+    /* background: linear-gradient(to top, white 1%, #0000ff00); */
+    object-fit: cover;
     width: 100%;
     height: 450px;
 }
@@ -318,12 +322,19 @@ nav img{
     width: 450px;
 }
 
+.project-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
 .resume-img-left{
     width: 600px;
     height: 350px;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .little-resume-right {
@@ -331,7 +342,7 @@ nav img{
     width: 450px;
     height: 100px;
     background-color: #233554;
-    top: 35%;
+    top: 40%;
     right: -55%;
     border-radius: 3px;
 }
@@ -361,14 +372,14 @@ nav img{
 }
 
 .mini-resume p {
-    margin-top: 10px;
+    margin-top: 15px;
     color: #a8b2d1;
 }
 
 .resume-img-right{
     width: 600px;
     height: 350px;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
     border-radius: 3px;
 }
@@ -378,7 +389,7 @@ nav img{
     width: 450px;
     height: 100px;
     background-color: #233554;
-    top: 35%;
+    top: 40%;
     left: -55%;
     border-radius: 3px;
 }
@@ -394,7 +405,7 @@ nav img{
     text-align: start;
     height: 110px;
     width: 310px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .mini-resume-reverse span {
@@ -429,7 +440,8 @@ nav img{
     margin: 20px 20px;
     width: 250px;
     height: 250px;
-    background-color: white;
+    object-fit: cover;
+    /* background-color: white; */
 }
 
 .contactContent {
@@ -472,6 +484,10 @@ form textarea {
     background-color: #233554;
     border-color: #64ffda;
     border-radius: 3px;
+}
+
+.submitButton:hover {
+    cursor: pointer;
 }
 
 .invalid {

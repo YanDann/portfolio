@@ -8,54 +8,54 @@
 
     <section class="jobs flex" data-aos="fade-up" data-aos-duration="2000">
         <div class="resume-img-left flex">
-            img_job001
+            <img class="project-img" src="__DIR__/../img/Mistral/Accueil.PNG" alt="Mistral">
             <div class="little-resume-right flex">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quod vel amet dolorem nesciunt odio magnam.</p>
+                <p>Une expérience qui, initialement, devait totalement se dérouler en VR. La crise sanitaire nous a obligée à changer notre fusil d'épaule.</p>
             </div>
         </div>
         <div class="resumes">
             <div class="mini-resume">
-                <span>Premier projet</span>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <span>Projet Mistral</span>
+                <p> Mistral est une application support, qui à été présentée lors de la nuit europpéenne des chercheurs en 2020.</p>
             </div>
             <div class="mini-resume">
-                <p>Suite résumé</p>
+                <p>C'est finalement une application smartphone qui à vue le jour, dans le respect des mesures sanitaires.</p>
             </div>
         </div>
     </section>
 
     <section class="jobs-reverse mt flex" data-aos="fade-up" data-aos-duration="2000">
         <div class="resume-img-right flex">
-            img_job002
+            <img class="project-img" src="__DIR__/../img/Ayctor/Ayctor_004.png" alt="Ayctor">
             <div class="little-resume-left flex">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quod vel amet dolorem nesciunt odio magnam.</p>
+                <p>Modelisation, texuring, scripting, lightning, optimisation.</p>
             </div>
         </div>
         <div class="resumes">
             <div class="mini-resume-reverse">
-                <span>Deuxième projet</span>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <span>Visite virtuelle</span>
+                <p>J'ai eu l'occasion d'entièrement prototyper une visite virtuelle d'un bien immobilier encore non existant pour COGEDIM.</p>
             </div>
             <div class="mini-resume-reverse">
-                <p>Suite résumé</p>
+                <p>Cette visite pouvait aussi bien se faire sur un ordinateur qu'une tablette.</p>
             </div>
         </div>
     </section>
 
     <section class="jobs mt flex" data-aos="fade-up" data-aos-duration="2000">
         <div class="resume-img-left flex">
-            img_job003
+            <img class="project-img" src="__DIR__/../img/Tesla/Tesla_001.jpg" alt="Tesla">
             <div class="little-resume-right flex">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quod vel amet dolorem nesciunt odio magnam.</p>
+                <p>Cette application est mon projet de fin d'étude d'infographiste 3D tems réel.</p>
             </div>
         </div>
         <div class="resumes">
             <div class="mini-resume">
-                <span>Troisième projet</span>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <span>Concession VR</span>
+                <p>Réalisation d'un concept de concession entièrement en réalité virtuelle.</p>
             </div>
             <div class="mini-resume">
-                <p>Suite résumé</p>
+                <p>Expériences réalisée sous le moteur Unreal Engine 4.</p>
             </div>
         </div>
         <div id="design"></div>

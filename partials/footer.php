@@ -14,7 +14,7 @@
     </ul>
 </div>
 
-<script src="../ressources/scripts/script-experiences.js"></script>
+<script src="__DIR__/../ressources/scripts/script-experiences.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();

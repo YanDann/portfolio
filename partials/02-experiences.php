@@ -21,10 +21,10 @@ require 'config/functions.php';
             <div class="sectionContent">
                 <h2 class="experiencesH2 flex"> <p id="h2-xp-script" >Dessinateur de plan </p><span id="span-xp-script">@ </span><a href="https://www.edfenr.com/" target="_blank" id="entreprise-xp-script">EDF ENR</a></h2>
                 <h3 id="h3-xp-script">Septembre 2022 - Fevrier 2023</h3>
-                <p id="p-xp-script">Ceci est mon paragraphe expliquant ce que j'ai fais dans ce job</p>
+                <p id="p-xp-script">Conception & modélisation de plan sur AutoCAD afin d’accueillir des panneaux photovoltaïques en zone rurale, urbaine & pour ZFE</p>
             </div>
         </div>
     </section>
-    <div class="backgroundWork" data-aos="fade-up" data-aos-duration="2000"></div>
+    <!-- <div class="backgroundWork" data-aos="fade-up" data-aos-duration="2000"></div> -->
     <div id="jobs"></div>
 </div>
