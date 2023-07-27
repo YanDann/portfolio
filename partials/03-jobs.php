@@ -15,11 +15,50 @@
         </div>
         <div class="resumes">
             <div class="mini-resume">
-                <span>Projet Mistral</span>
+                <span><a href="mistral.php">Projet Mistral</a></span>
                 <p> Mistral est une application support, qui à été présentée lors de la nuit europpéenne des chercheurs en 2020.</p>
             </div>
             <div class="mini-resume">
                 <p>C'est finalement une application smartphone qui à vue le jour, dans le respect des mesures sanitaires.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="jobs-reverse mt flex" data-aos="fade-up" data-aos-duration="2000">
+        <div class="resume-img-right flex">
+            <img class="project-img" src="__DIR__/../img/CITEO/Sensibilisation_ludique.png" alt="Ayctor">
+            <div class="little-resume-left flex">
+                <p>La réalité virtuelle : une machine à empathie</p>
+            </div>
+        </div>
+        <div class="resumes">
+            <div class="mini-resume-reverse">
+                <span>HelloVR</span>
+                <p>Campagne de sensibilisation en réalité virtuel pour CITEO
+                    <br>
+                    Rien ne se jette, tout se transforme
+                </p>
+            </div>
+            <div class="mini-resume-reverse">
+                <p>Conceptualisation d'une plateforme de <span>"</span>streaming<span>"</span> & d'un support assurant la viralité de la campagne.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="jobs mt flex" data-aos="fade-up" data-aos-duration="2000">
+        <div class="resume-img-left flex">
+            <img class="project-img" src="__DIR__/../img/XV/logo.png" alt="Tesla">
+            <div class="little-resume-right flex">
+                <p>Simulation 3D Temps réel dans lequel est plongé un utilisateur d'exosquelette afin de se préparer à une utilisation quotidienne</p>
+            </div>
+        </div>
+        <div class="resumes">
+            <div class="mini-resume">
+                <span>Projet XV</span>
+                <p>C'est en se rapprochant de l'entreprise française <span><a href="https://www.wandercraft.eu/" target="_blank">Wandercraft</a></span> que ce projet à vue le jour.</p>
+            </div>
+            <div class="mini-resume">
+                <p>Expériences réalisée sous le moteur Unreal Engine 4.</p>
             </div>
         </div>
     </section>
@@ -34,7 +73,7 @@
         <div class="resumes">
             <div class="mini-resume-reverse">
                 <span>Visite virtuelle</span>
-                <p>J'ai eu l'occasion d'entièrement prototyper une visite virtuelle d'un bien immobilier encore non existant pour COGEDIM.</p>
+                <p>J'ai eu l'occasion d'entièrement prototyper une visite virtuelle d'un bien immobilier encore non existant pour <span><a href="https://www.cogedim.com/" target="_blank">COGEDIM</a></span>.</p>
             </div>
             <div class="mini-resume-reverse">
                 <p>Cette visite pouvait aussi bien se faire sur un ordinateur qu'une tablette.</p>

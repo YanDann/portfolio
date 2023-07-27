@@ -343,14 +343,32 @@ nav img{
     height: 100px;
     background-color: #233554;
     top: 40%;
-    right: -55%;
+    right: -57%;
     border-radius: 3px;
+}
+
+.little-resume-right a {
+    text-decoration: underline 1px #64ffdb00;
+    color: #64ffda;
+    text-underline-offset: 5px;
+    transition: 500ms;
+}
+
+.little-resume-right a:hover {
+    text-decoration: underline;
 }
 
 .little-resume-right p {
     font-weight: 300;
     text-align: end;
     margin: auto 20px;
+    color: white;
+}
+
+.little-resume-right .last {
+    font-weight: 300;
+    text-align: end;
+    margin: auto;
     color: white;
 }
 
@@ -363,12 +381,23 @@ nav img{
 .mini-resume {
     text-align: end;
     height: 110px;
-    width: 310px;
+    width: 320px;
     margin-left: 20px;
 }
 
 .mini-resume span {
     color: #64ffda;
+}
+
+.mini-resume a {
+    text-decoration: underline 1px #64ffdb00;
+    color: #64ffda;
+    text-underline-offset: 5px;
+    transition: 500ms;
+}
+
+.mini-resume a:hover {
+    text-decoration: underline;
 }
 
 .mini-resume p {
@@ -412,6 +441,17 @@ nav img{
     color: #64ffda;
 }
 
+.mini-resume-reverse a {
+    text-decoration: underline 1px #64ffdb00;
+    color: #64ffda;
+    text-underline-offset: 5px;
+    transition: 500ms;
+}
+
+.mini-resume-reverse a:hover {
+    text-decoration: underline;
+}
+
 .mini-resume-reverse p {
     margin-top: 10px;
     color: #a8b2d1;
@@ -441,6 +481,7 @@ nav img{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 5px;
     /* background-color: white; */
 }
 
@@ -496,4 +537,31 @@ form textarea {
 
 .invalid-text {
     color: rgb(209, 27, 27) !important;
+}
+
+.mistral-body {
+    padding-top: 200px;
+}
+
+.empty {
+    height: 150px;
+}
+
+.back-redirect {
+    scale: 0.1;
+    position: fixed;
+    rotate: 180deg;
+    bottom: -20%;
+    left: 5%;
+}
+
+.back {
+    filter: invert(80%) sepia(24%) saturate(399%) hue-rotate(192deg) brightness(87%) contrast(86%);
+    transition: 500ms;
+    transform: translateY();
+}
+
+.back:hover {
+    filter: invert(88%) sepia(5%) saturate(4364%) hue-rotate(96deg) brightness(112%) contrast(109%);
+    transform: translateY(15%);
 }
