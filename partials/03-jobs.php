@@ -90,7 +90,7 @@
         </div>
         <div class="resumes">
             <div class="mini-resume">
-                <span>Concession VR</span>
+                <span><a href="tesla.php">Concession VR</a></span>
                 <p>Réalisation d'un concept de concession entièrement en réalité virtuelle.</p>
             </div>
             <div class="mini-resume">
