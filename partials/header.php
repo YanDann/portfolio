@@ -1,3 +1,9 @@
+<?php 
+
+$url = 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -18,11 +24,11 @@
                 <a href="index.php"><img src="./img/logo.png" alt=""></a>
             </div>
             <ul>
-                <li><span>01.</span><a href="#about">A propos</a></li>
-                <li><span>02.</span><a href="#xp">Experiences</a></li>
-                <li><span>03.</span><a href="#jobs">Créations</a></li>
-                <li><span>04.</span><a href="#design">Designs</a></li>
-                <li><span>05.</span><a href="#contact">Contact</a></li>
+                <li><span>01.</span><a href=<?= strpos($url, 'index') == true ? '#about' : 'index.php';?>>A propos</a></li>
+                <li><span>02.</span><a href=<?= strpos($url, 'index') == true ? '#xp' : 'index.php';?>>Experiences</a></li>
+                <li><span>03.</span><a href=<?= strpos($url, 'index') == true ? '#jobs' : 'index.php';?>>Créations</a></li>
+                <li><span>04.</span><a href=<?= strpos($url, 'index') == true ? '#design' : 'index.php';?>>Designs</a></li>
+                <li><span>05.</span><a href=<?= strpos($url, 'index') == true ? '#contact' : 'index.php';?>>Contact</a></li>
                 <a class="cv" href="__DIR__/../img/CV_MICHON_Julien.pdf" target="_blank">CV</a>
             </ul>
         </nav>
