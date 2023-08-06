@@ -10,16 +10,16 @@
         <div class="resume-img-left flex">
             <img class="project-img" src="__DIR__/../img/Mistral/Accueil.PNG" alt="Mistral">
             <div class="little-resume-right flex">
-                <p>Une expérience qui, initialement, devait totalement se dérouler en VR. La crise sanitaire nous a obligée à changer notre fusil d'épaule.</p>
+                <p>Une expérience qui, initialement, devait totalement se dérouler en VR. La crise sanitaire nous a obligés à changer notre fusil d'épaule.</p>
             </div>
         </div>
         <div class="resumes">
             <div class="mini-resume">
                 <span><a href="mistral.php">Projet Mistral</a></span>
-                <p> Mistral est une application support, qui à été présentée lors de la nuit europpéenne des chercheurs en 2020.</p>
+                <p> Mistral est une application support, qui a été présentée lors de la nuit européenne  des chercheurs en 2020.</p>
             </div>
             <div class="mini-resume">
-                <p>C'est finalement une application smartphone qui à vue le jour, dans le respect des mesures sanitaires.</p>
+                <p>C'est finalement une application smartphone qui a vue le jour, dans le respect des mesures sanitaires.</p>
             </div>
         </div>
     </section>
@@ -34,7 +34,7 @@
         <div class="resumes">
             <div class="mini-resume-reverse">
                 <span><a href="hello-vr.php">HelloVR</a></span>
-                <p>Campagne de sensibilisation en réalité virtuel pour CITEO
+                <p>Campagne de sensibilisation en réalité virtuelle pour CITEO
                     <br>
                     Rien ne se jette, tout se transforme
                 </p>
@@ -55,10 +55,10 @@
         <div class="resumes">
             <div class="mini-resume">
                 <span><a href="xv.php">Projet XV</a></span>
-                <p>C'est en se rapprochant de l'entreprise française <span><a href="https://www.wandercraft.eu/" target="_blank">Wandercraft</a></span> que ce projet à vue le jour.</p>
+                <p>C'est en se rapprochant de l'entreprise française <span><a href="https://www.wandercraft.eu/" target="_blank">Wandercraft</a></span> que ce projet a vue le jour.</p>
             </div>
             <div class="mini-resume">
-                <p>Expériences réalisée sous le moteur Unreal Engine 4.</p>
+                <p>Expérience réalisée sous le moteur Unity.</p>
             </div>
         </div>
     </section>
@@ -73,7 +73,7 @@
         <div class="resumes">
             <div class="mini-resume-reverse">
                 <span><a href="ayctor.php">Visite virtuelle</a></span>
-                <p>J'ai eu l'occasion d'entièrement prototyper une visite virtuelle d'un bien immobilier encore non existant pour <span><a href="https://www.cogedim.com/" target="_blank">COGEDIM</a></span>.</p>
+                <p>J'ai eu l'occasion d'entièrement prototyper une visite virtuelle d'un bien immobilier encore non-existant pour <span><a href="https://www.cogedim.com/" target="_blank">COGEDIM</a></span>.</p>
             </div>
             <div class="mini-resume-reverse">
                 <p>Cette visite pouvait aussi bien se faire sur un ordinateur qu'une tablette.</p>
@@ -85,7 +85,7 @@
         <div class="resume-img-left flex">
             <img class="project-img" src="__DIR__/../img/Tesla/Tesla_001.jpg" alt="Tesla">
             <div class="little-resume-right flex">
-                <p>Cette application est mon projet de fin d'étude d'infographiste 3D tems réel.</p>
+                <p>Cette application est mon projet de fin d'études d'infographiste 3D temps réel.</p>
             </div>
         </div>
         <div class="resumes">
@@ -94,7 +94,7 @@
                 <p>Réalisation d'un concept de concession entièrement en réalité virtuelle.</p>
             </div>
             <div class="mini-resume">
-                <p>Expériences réalisée sous le moteur Unreal Engine 4.</p>
+                <p>Expérience réalisée sous le moteur Unreal Engine 4.</p>
             </div>
         </div>
         <div id="design"></div>

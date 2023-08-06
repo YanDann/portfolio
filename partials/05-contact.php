@@ -38,7 +38,12 @@ if (!empty($_POST)) {
     }
 
     if (empty($errors)) {
+        $to = "mcn.julien@gmail.com";
+        $headers = "From: ". $email;
+
         $success = "Bonjour $name, votre " . strtolower($subject) . " à bien été envoyée et sera prise en compte dans les plus bref délais.";
+
+        mail($to, $subject, $message, $headers);
     }
 }
 

@@ -7,7 +7,7 @@
 
         <div class="flex" data-aos="fade-up" data-aos-duration="2000">
             <img class="designSquare" src="__DIR__/../img/Tesla/Interieur_001.PNG" alt="">
-            <img class="designSquare" src="__DIR__/../img/Tesla/Interieur_002.PNG" alt="">
+            <img class="designSquare" src="__DIR__/../img/Tesla/Interieur_002.png" alt="">
             <img class="designSquare" src="__DIR__/../img/Production graphique/Humvee_001.png" alt="">
             <img class="designSquare" src="__DIR__/../img/Production graphique/Perso_cartoon_001.png" alt="">
         </div>

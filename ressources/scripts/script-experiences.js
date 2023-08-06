@@ -11,7 +11,7 @@ allXp = [
     'Home', 
     'Freelance ', 
     'Mars 2021 - Juillet 2022', 
-    `Création d'une solution d'agence immobilière 2.0, visite de bien immobilier existant ou non existant en 3D temps réel & VR.`, 
+    `Création d'une solution d'agence immobilière 2.0, visite de bien immobilier existant ou non-existant en 3D temps réel & VR.`, 
     '#'],
 
     ['C.R.V.M', 
@@ -19,14 +19,14 @@ allXp = [
     'Designer UI/UX ', 
     'Juillet 2020 - Janvier 2021', 
     `Conceptualisation & réalisation du projet Mistral, une application pédagogique mettant en lumière les travaux d'un chercheur du C.N.R.S sur le plasma.
-    Cette application à été présenter à la nuit europpéenne des chercheurs et est disponible sur AppStor & Playstore.`, 
+    Cette application a été présentée à la nuit européenne des chercheurs et est disponible sur AppStor & Playstore.`, 
     'https://www.crvm.eu/'],
 
     ['Ayctor', 
     'Ayctor', 
     'Infographiste 3D ', 
     'Juillet 2017 - Septembre 2017', 
-    `Création d\'un prototype de visite virtuelle d\'un bien immobilier encore non existant pour COGEDIM.`, 
+    `Création d\'un prototype de visite virtuelle d\'un bien immobilier encore non-existant pour COGEDIM.`, 
     'https://ayctor.com/'],
 
     ['Defta', 
