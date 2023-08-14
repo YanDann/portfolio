@@ -39,9 +39,7 @@ if (!empty($_POST)) {
     if (empty($errors)) {
         $success = "Bonjour $name, votre " . strtolower($subject) . " a bien été envoyée et sera prise en compte dans les plus bref délais.";
 
-        $headers = 'From :'. $email ;
-
-        mail("mcn.julien@gmail.com", $subject, $message, $headers);
+        mail("mcn.julien@gmail.com", $subject, 'From: ' . $email . "\n\r" . $message);
     }
 }
 
