@@ -17,7 +17,6 @@ $subjectTab = [
 
 $errors = [];
 
-
 if (!empty($_POST)) {
     if (empty($email)) {
         $errors['email'] = "L'email est obligatoire.";
@@ -38,12 +37,7 @@ if (!empty($_POST)) {
     }
 
     if (empty($errors)) {
-        $to = "mcn.julien@gmail.com";
-        $headers = "From: ". $email;
-
-        $success = "Bonjour $name, votre " . strtolower($subject) . " à bien été envoyée et sera prise en compte dans les plus bref délais.";
-
-        mail($to, $subject, $message, $headers);
+        $success = "Bonjour $name, votre " . strtolower($subject) . " a bien été envoyée et sera prise en compte dans les plus bref délais.";
     }
 }
 
