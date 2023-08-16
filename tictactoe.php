@@ -40,4 +40,6 @@
     <script src="__DIR__/../ressources/scripts/script-tictactoe.js"></script>
 </section>
 
+<div class="back-redirect"><a href="index.php"><img class="back" src="__DIR__/../img/back.png" alt="back"></a></div>
+
 <?php require 'partials/footer.php'; ?>

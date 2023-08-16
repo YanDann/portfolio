@@ -99,4 +99,22 @@
         </div>
         <div id="design"></div>
     </section>
+
+    <section class="jobs-reverse mt flex" data-aos="fade-up" data-aos-duration="2000">
+        <div class="resume-img-right flex">
+            <img class="project-img" src="__DIR__/../img/tictactoe.jpg" alt="Ayctor">
+            <div class="little-resume-left flex">
+                <p>Technologies utilisées : HTML / CSS / Js.</p>
+            </div>
+        </div>
+        <div class="resumes">
+            <div class="mini-resume-reverse">
+                <span><a href="tictactoe.php">Tic Tac Toe</a></span>
+                <p>Réalisation du mythique minijeu : Tic Tac Toe, ceci dans le but d'apprendre de nouveaux langages</p>
+            </div>
+            <div class="mini-resume-reverse">
+                <p></p>
+            </div>
+        </div>
+    </section>
 </div>
