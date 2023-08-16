@@ -1,0 +1,88 @@
+.gameSection {
+    margin: auto;
+    width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    padding: 5%;
+    color: #64ffda;
+}
+
+.flex {
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tictactoe {
+    justify-content: center;
+}
+
+.vertical {
+    border-left: solid 2px #a8b2d1;
+    border-right: solid 2px #a8b2d1;
+}
+
+.horizontal {
+    border-top: solid 2px #a8b2d1;
+    border-bottom: solid 2px #a8b2d1;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #a8b2d1;
+    padding-top: 5%;
+}
+
+.restart {
+    text-align: center;
+}
+
+.restart button {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    margin: 55px 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: #64ffda;
+    padding: 10px 30px;
+    border: 1px #64ffda solid;
+    border-radius: 5px;
+    transform: translateY(0px);
+    transition: 350ms;
+}
+
+.restart button:hover {
+    transform: translate(-3px, -3px);
+}
+
+.score {
+    justify-content: space-around;
+    color: #64ffda;
+}
+
+.scoreplayer {
+    font-size: 25px;
+    color: #a8b2d1;
+}
+
+.scoreX {
+    padding-top: 2%;
+}
+
+.scoreO {
+    padding-top: 2%;
+}
