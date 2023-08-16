@@ -104,7 +104,7 @@
         <div class="resume-img-right flex">
             <img class="project-img" src="__DIR__/../img/tictactoe.jpg" alt="tictactoe">
             <div class="little-resume-left flex">
-                <p>Technologies utilisées : HTML / CSS / Js.</p>
+                <p>Langages utilisés : HTML / CSS / Js.</p>
             </div>
         </div>
         <div class="resumes">
