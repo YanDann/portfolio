@@ -18,6 +18,12 @@
             <img class="designSquare" src="__DIR__/../img/Production graphique/Sculpt_001.png" alt="">
         </div>
         <div class="flex" data-aos="fade-up" data-aos-duration="2000">
+            <img class="designSquare" src="__DIR__/../img\Saint-Gobain\Neige\2.png" alt="">
+            <img class="designSquare" src="__DIR__/../img\Saint-Gobain\Nuit\4.png" alt="">
+            <img class="designSquare" src="__DIR__/../img\Saint-Gobain\Pluie\5.png" alt="">
+            <img class="designSquare" src="__DIR__/../img\Saint-Gobain\Soleil\5.png" alt="">
+        </div>
+        <div class="flex" data-aos="fade-up" data-aos-duration="2000">
             <img class="designSquare" src="__DIR__/../img/Production graphique/julien-michon-cockroach.jpg" alt="">
             <img class="designSquare" src="__DIR__/../img/Production graphique/julien-michon-guts.jpg" alt="">
             <img class="designSquare" src="__DIR__/../img/Production graphique/julien-michon-hydralisk.jpg" alt="">
