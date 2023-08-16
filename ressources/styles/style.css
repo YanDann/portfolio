@@ -14,8 +14,16 @@ body  {
     font-family: 'Roboto Mono', monospace;
 }
 
+.bg-white {
+    background: linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(10,25,47,1) 100%);
+}
+
 .flex {
     display: flex;
+}
+
+.f-center {
+    justify-content: center;
 }
 
 nav {
@@ -329,7 +337,19 @@ nav img{
     border-radius: 3px;
 }
 
-.resume-img-left{
+.small {
+    margin: 0px 40px;
+}
+
+.sm {
+    margin: 0px 100px;
+}
+
+.medium {
+    margin: 0px 150px;
+}
+
+.resume-img-left {
     width: 600px;
     height: 350px;
     /* background-color: white; */
@@ -369,6 +389,7 @@ nav img{
     font-weight: 300;
     text-align: end;
     margin: auto;
+    padding-right: 30px;
     color: white;
 }
 
@@ -545,6 +566,29 @@ form textarea {
 
 .empty {
     height: 150px;
+}
+
+.solfvision-button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.solfvision-button button {
+    width: auto;
+    padding: 10px;
+    font-family: 'Roboto Mono';
+    color: #64ffda;
+    background-color: #233554;
+    border-color: #64ffda;
+    border-radius: 3px;
+    margin: 0px 25px;
+    transition: 500ms;
+    transform: translate(0px, 0px);
+}
+
+.solfvision-button button:hover {
+    transform: translate(-5px, -5px);
 }
 
 .back-redirect {

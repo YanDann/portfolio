@@ -6,20 +6,39 @@
         </div>
     </section>
 
-    <section class="jobs flex" data-aos="fade-up" data-aos-duration="2000">
-        <div class="resume-img-left flex">
+    <section class="jobs-reverse flex" data-aos="fade-up" data-aos-duration="2000">
+        <div class="resume-img-right flex">
             <img class="project-img" src="__DIR__/../img/Mistral/Accueil.PNG" alt="Mistral">
-            <div class="little-resume-right flex">
+            <div class="little-resume-left flex">
                 <p>Une expérience qui, initialement, devait totalement se dérouler en VR. La crise sanitaire nous a obligés à changer notre fusil d'épaule.</p>
             </div>
         </div>
         <div class="resumes">
-            <div class="mini-resume">
+            <div class="mini-resume-reverse">
                 <span><a href="mistral.php">Projet Mistral</a></span>
-                <p> Mistral est une application support, qui a été présentée lors de la nuit européenne  des chercheurs en 2020.</p>
+                <p> Mistral est une application support, qui a été présentée lors de la nuit européenne des chercheurs en 2020.</p>
+                </p>
+            </div>
+            <div class="mini-resume-reverse">
+                <p>C'est finalement une application smartphone qui a vue le jour, dans le respect des mesures sanitaires.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="jobs mt flex" data-aos="fade-up" data-aos-duration="2000">
+        <div class="resume-img-left flex">
+            <img class="project-img" src="__DIR__/../img\SolfVision\logo.png" alt="SolfVision_logo">
+            <div class="little-resume-right flex">
+                <p>Mélanger le corps et l'esprit dans l'apprentissage</p>
+            </div>
+        </div>
+        <div class="resumes">
+            <div class="mini-resume">
+                <span><a href="solfvision.php">Solf'Vision</a></span>
+                <p>Application smartphone & VR afin d'apprendre le solfège en utilisant l'état de flow et la mémoire musculaire.</p>
             </div>
             <div class="mini-resume">
-                <p>C'est finalement une application smartphone qui a vue le jour, dans le respect des mesures sanitaires.</p>
+                <p>Le parti pris dans ce projet est de générer de la motivation à travers l'état de flow.</p>
             </div>
         </div>
     </section>
